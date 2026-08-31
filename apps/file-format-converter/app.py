@@ -53,7 +53,7 @@ def process_files(ds_names=None):
     for ds_name in ds_names:
         try:
             file_converter(src_base_dir, tgt_base_dir, ds_name)
-            print(f'Processed {ds_name}')
+            print(f'Processed jdnfj {ds_name}')
         except NameError as ne:
             print(ne)
             print(f'Error Processing {ds_name}')
