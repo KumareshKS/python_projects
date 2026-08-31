@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "File Format Converter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/apps/file-format-converter/app.py",
+            "args": [
+                "orders"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "File to DB Loader",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/apps/file-to-db-loader/app.py",
+            "args": [
+                "orders"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
